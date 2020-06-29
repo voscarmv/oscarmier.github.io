@@ -1,0 +1,10 @@
+.headline {
+  font-size: 80px;
+  font-family: 'Corben', cursive;
+}
+
+body{
+  background-image: url('img/imageedit_1_6442215352.png');
+  background-repeat: no-repeat;
+  background-position: 300px -100px;
+}
