@@ -4,8 +4,33 @@
 }
 
 body{
+  background-color: white;
   background-image: url('img/imageedit_1_6442215352.png');
   background-repeat: no-repeat;
   background-position: right -80vh top -15vh;
   background-size: auto 140vh;
+}
+
+.bg-1{
+  background-color: red;
+}
+
+.content{
+  width: auto;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 16fr 10fr;
+  grid-template-rows: 10fr 16fr;
+}
+
+.cell{
+  border-style: solid;
+  border-color: black;
+}
+
+.carousel,.item,.active{
+  height:100%;
+}
+.carousel-inner{
+   height:100%;
 }
