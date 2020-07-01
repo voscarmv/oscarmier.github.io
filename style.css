@@ -16,11 +16,13 @@ body{
 }
 
 .content{
-  width: auto;
-  height: 100vh;
   display: grid;
   grid-template-columns: 16fr 10fr;
   grid-template-rows: 10fr 16fr;
+}
+
+.maincontent{
+  height: 100vh;
 }
 
 .cell{
