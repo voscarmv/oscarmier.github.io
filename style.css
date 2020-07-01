@@ -36,3 +36,29 @@ body{
 .carousel-inner{
    height:100%;
 }
+
+.social{
+  float: right;
+  width: 40%;
+}
+
+.fa-youtube{
+  color:red;
+}
+
+.fa-github{
+  color: black;
+}
+
+.fa-twitch{
+  color: #6441A4;
+}
+
+.fa-linkedin{
+  color: #0077B5;
+}
+
+.header-name{
+  width: 60%;
+  height: auto;
+}
