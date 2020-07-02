@@ -37,16 +37,17 @@ body::after {
 }
 
 .cell{
-  border-style: solid;
-  border-color: black;
+  /* border-style: solid;
+  border-color: black; */
   grid-row-start: 2;
 }
 
 .cell-head{
   grid-column-start: 1;
   grid-column-end: span-2;
-  border-style: solid;
-  border-color: green;
+  /* border-style: solid;
+  border-color: green; */
+  padding: 20px;
 }
 
 .carousel,.item,.active{
@@ -105,4 +106,45 @@ body::after {
 
 .mail{
   font-size: 2vw;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: darkslateblue;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: darkslateblue;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: darkslateblue;
+  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  background-color: #ffff99;
 }
