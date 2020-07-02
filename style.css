@@ -13,7 +13,7 @@ body::after {
   background-repeat: no-repeat;
   background-position: right -80vh top -15vh;
   background-size: auto 140vh;
-  opacity: 0.5;
+  opacity: 0.3;
   top: 0;
   left: 0;
   bottom: 0;
@@ -59,7 +59,7 @@ body::after {
 .social{
   float: right;
   width: 40%;
-  margin-top: 15px;
+  margin: 15px;
 }
 
 .fa-youtube{
@@ -83,6 +83,12 @@ body::after {
   height: auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .header-name {
+    width: 70%;
+  }
+}
+
 .details{
   color: black;
   font-family: 'Montserrat', sans-serif;
@@ -93,6 +99,10 @@ body::after {
 
 .work-title{
   color: darkslateblue;
-  font-size: 30px;
-  font-weight: 800;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.mail{
+  font-size: 2vw;
 }
