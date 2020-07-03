@@ -9,7 +9,7 @@ body {
 
 body::after {
   content: "";
-  background-image: url('img/imageedit_1_6442215352.png');
+  background-image: url('img/hummingbird.png');
   background-repeat: no-repeat;
   background-position: right -80vh top -15vh;
   background-size: auto 140vh;
@@ -114,11 +114,11 @@ body::after {
 
   .mockup {
     width: auto;
-    height: 50%;
+    height: 43%;
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
   .proj-text,
   .proj-title {
     font-size: 12px;
