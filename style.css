@@ -3,7 +3,7 @@
   font-family: 'Corben', cursive;
 }
 
-body{
+body {
   background-color: white;
 }
 
@@ -19,81 +19,86 @@ body::after {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
 }
 
-.bg-1{
+.bg-1 {
   background-color: red;
 }
 
-.content{
+.content {
   display: grid;
   grid-template-columns: 16fr 10fr;
   grid-template-rows: 10fr 16fr;
 }
 
-.maincontent{
+.maincontent {
   height: 100vh;
 }
 
-.cell{
+.cell {
   /* border-style: solid;
   border-color: black; */
   grid-row-start: 2;
 }
 
-.cell-head{
+.cell-head {
   grid-column-start: 1;
   grid-column-end: span-2;
+
   /* border-style: solid;
   border-color: green; */
   padding: 20px;
 }
 
-.carousel,.item,.active{
+.carousel,
+.item,
+.active {
   /* height:100%; */
 }
-.carousel-inner{
-   /* height:100%; */
+
+.carousel-inner {
+  /* height:100%; */
 }
 
-.carousel-content{
+.carousel-content {
   height: 62vh;
 }
 
-.social{
+.social {
   float: right;
   width: 40%;
   margin: 15px;
 }
 
-.fa-youtube{
-  color:red;
+.fa-youtube {
+  color: red;
 }
 
-.fa-github{
+.fa-github {
   color: black;
 }
 
-.fa-twitch{
-  color: #6441A4;
+.fa-twitch {
+  color: #6441a4;
 }
 
-.fa-linkedin{
-  color: #0077B5;
+.fa-linkedin {
+  color: #0077b5;
 }
 
-.header-name{
+.header-name {
   width: 30%;
   height: auto;
 }
 
-.proj-text, .proj-title{  
+.proj-text,
+.proj-title {
   color: darkslateblue;
   font-family: 'Montserrat', sans-serif;
 }
 
-.proj-title{
+.proj-title {
   font-weight: 800;
 }
 
@@ -104,12 +109,13 @@ body::after {
 }
 
 @media only screen and (max-width: 360px) {
-  .proj-text, .proj-title{  
+  .proj-text,
+  .proj-title {
     font-size: 12px;
   }
 }
 
-.details{
+.details {
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -117,13 +123,13 @@ body::after {
   font-weight: 500;
 }
 
-.work-title{
+.work-title {
   color: darkslateblue;
   font-size: 3vw;
   font-weight: 500;
 }
 
-.mail{
+.mail {
   font-size: 2vw;
 }
 
@@ -136,14 +142,13 @@ body::after {
   background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon::after {
   content: '>';
   font-size: 55px;
   color: darkslateblue;
 }
 
-.carousel-control-prev-icon:after {
+.carousel-control-prev-icon::after {
   content: '<';
   font-size: 55px;
   color: darkslateblue;
@@ -159,11 +164,12 @@ body::after {
   border: none;
   border-radius: 50%;
   background-color: darkslateblue;
-  box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+  box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
 .carousel-indicators .active {
   width: 10px;
   height: 10px;
   margin: 10px;
-  background-color: #ffff99;
+  background-color: #ff9;
 }
