@@ -51,10 +51,14 @@ body::after {
 }
 
 .carousel,.item,.active{
-  height:100%;
+  /* height:100%; */
 }
 .carousel-inner{
-   height:100%;
+   /* height:100%; */
+}
+
+.carousel-content{
+  height: 62vh;
 }
 
 .social{
