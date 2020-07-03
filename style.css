@@ -84,9 +84,24 @@ body::after {
   height: auto;
 }
 
+.proj-text, .proj-title{  
+  color: darkslateblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.proj-title{
+  font-weight: 800;
+}
+
 @media only screen and (max-width: 768px) {
   .header-name {
     width: 70%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .proj-text, .proj-title{  
+    font-size: 12px;
   }
 }
 
