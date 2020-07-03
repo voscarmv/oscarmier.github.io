@@ -1,0 +1,190 @@
+.headline {
+  font-size: 80px;
+  font-family: 'Corben', cursive;
+}
+
+body {
+  background-color: white;
+}
+
+body::after {
+  content: "";
+  background-image: url('img/hummingbird.png');
+  background-repeat: no-repeat;
+  background-position: right -80vh top -15vh;
+  background-size: auto 140vh;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-1 {
+  background-color: red;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 16fr 10fr;
+  grid-template-rows: 10fr 16fr;
+}
+
+.maincontent {
+  height: 100vh;
+}
+
+.cell {
+  /* border-style: solid;
+  border-color: black; */
+  grid-row-start: 2;
+}
+
+.cell-head {
+  grid-column-start: 1;
+  grid-column-end: span-2;
+
+  /* border-style: solid;
+  border-color: green; */
+  padding: 20px;
+}
+
+.carousel,
+.item,
+.active {
+  /* height:100%; */
+}
+
+.carousel-inner {
+  /* height:100%; */
+}
+
+.carousel-content {
+  height: 61vh;
+}
+
+.social {
+  float: right;
+  width: 40%;
+  margin: 15px;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-twitch {
+  color: #6441a4;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.header-name {
+  width: 30%;
+  height: auto;
+}
+
+.proj-text,
+.proj-title {
+  color: darkslateblue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.proj-title {
+  font-weight: 800;
+}
+
+.mockup {
+  width: auto;
+  height: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-name {
+    width: 70%;
+  }
+
+  .mockup {
+    width: auto;
+    height: 43%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .proj-text,
+  .proj-title {
+    font-size: 12px;
+  }
+
+  .mockup {
+    width: auto;
+    height: 30%;
+  }
+}
+
+.details {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin-left: 18px;
+  font-weight: 500;
+}
+
+.work-title {
+  color: darkslateblue;
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.mail {
+  font-size: 2vw;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon::after {
+  content: '>';
+  font-size: 55px;
+  color: darkslateblue;
+}
+
+.carousel-control-prev-icon::after {
+  content: '<';
+  font-size: 55px;
+  color: darkslateblue;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: darkslateblue;
+  box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  background-color: #ff9;
+}

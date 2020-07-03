@@ -64,6 +64,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Credits for images:
+  - Hummingbird https://flic.kr/p/bJG7rV
+  - Cloud video https://www.youtube.com/watch?v=crUaVf6wd2E
+
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
