@@ -102,9 +102,19 @@ body::after {
   font-weight: 800;
 }
 
+.mockup {
+  width: auto;
+  height: 70%;
+}
+
 @media only screen and (max-width: 768px) {
   .header-name {
     width: 70%;
+  }
+
+  .mockup {
+    width: auto;
+    height: 50%;
   }
 }
 
@@ -112,6 +122,11 @@ body::after {
   .proj-text,
   .proj-title {
     font-size: 12px;
+  }
+
+  .mockup {
+    width: auto;
+    height: 30%;
   }
 }
 
@@ -172,9 +187,4 @@ body::after {
   height: 10px;
   margin: 10px;
   background-color: #ff9;
-}
-
-.mockup {
-  width: auto;
-  height: 70%;
 }
